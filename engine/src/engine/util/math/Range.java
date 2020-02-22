@@ -11,6 +11,7 @@ public class Range
 		this.upperBound = upperBound;
 	}
 	
+	
 	public boolean contains(double value)
 	{
 		return value >= lowerBound && value <= upperBound;
